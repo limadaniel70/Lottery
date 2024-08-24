@@ -1,6 +1,7 @@
 import sqlite3
 from multipledispatch import dispatch
 
+
 class DataBase:
 
     def __init__(self, database_name: str) -> None:
@@ -18,7 +19,7 @@ class DataBase:
 
     def get_all_players(self) -> list[str]:
         pass
-        
+
     def remove_player(self, player_name: str) -> tuple[int, str]:
         pass
 
