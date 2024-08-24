@@ -4,11 +4,15 @@ version = "0.1.0"
 description = ""
 authors = ["Daniel Lima"]
 readme = "README.md"
+license = "MIT"
 
 [tool.poetry.dependencies]
 python = "^3.12"
 multipledispatch = "^1.0.0"
 
+[tool.poetry.group.dev.dependencies]
+black = "*"
+pylint = "*"
 
 [build-system]
 requires = ["poetry-core"]
